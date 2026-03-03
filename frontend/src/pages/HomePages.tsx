@@ -1,6 +1,7 @@
 import TiltedImage from "../components/ThumbnailTitle"
 import FeaturesSection from "../sections/FeaturesSection"
 import HeroSection from "../sections/HeroSection"
+import TestimonialSection from "../sections/TestimonialSection"
 
 const HomePages = () => {
   return (
@@ -8,6 +9,7 @@ const HomePages = () => {
         <HeroSection />
         <TiltedImage />
         <FeaturesSection />
+        <TestimonialSection />
     </>
   )
 }
