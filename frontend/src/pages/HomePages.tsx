@@ -1,4 +1,5 @@
-import TiltedImage from "../components/TiltImage"
+import TiltedImage from "../components/ThumbnailTitle"
+import FeaturesSection from "../sections/FeaturesSection"
 import HeroSection from "../sections/HeroSection"
 
 const HomePages = () => {
@@ -6,6 +7,7 @@ const HomePages = () => {
     <>
         <HeroSection />
         <TiltedImage />
+        <FeaturesSection />
     </>
   )
 }
