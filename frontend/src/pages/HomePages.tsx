@@ -1,4 +1,3 @@
-import Footer from "../components/Footer"
 import TiltedImage from "../components/ThumbnailTitle"
 import ContactSection from "../sections/ContactSection"
 import CTASection from "../sections/CTASection"
@@ -17,7 +16,6 @@ const HomePages = () => {
         <PricingSection />
         <ContactSection />
         <CTASection />
-        <Footer />
     </>
   )
 }
