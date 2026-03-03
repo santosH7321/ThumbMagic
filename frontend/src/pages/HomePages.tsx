@@ -1,4 +1,5 @@
 import TiltedImage from "../components/ThumbnailTitle"
+import ContactSection from "../sections/ContactSection"
 import FeaturesSection from "../sections/FeaturesSection"
 import HeroSection from "../sections/HeroSection"
 import PricingSection from "../sections/PricingSection"
@@ -12,6 +13,7 @@ const HomePages = () => {
         <FeaturesSection />
         <TestimonialSection />
         <PricingSection />
+        <ContactSection />
     </>
   )
 }
